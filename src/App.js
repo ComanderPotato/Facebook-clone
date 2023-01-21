@@ -1,9 +1,9 @@
-import './App.css';
-import Login from './Login';
-import Header from './Header';
-import Sidebar from './Sidebar';
-import Feed from './Feed';
-import Widgets from './Widgets';
+import "./App.css";
+import Login from "./Login";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
+import Feed from "./Feed";
+import Widgets from "./Widgets";
 function App() {
   const user = null;
   return (
@@ -13,17 +13,17 @@ function App() {
         <Login />
       ) : (
         <> */}
-          {/* Header */}
-          <Header />
-          <div className='app__body'>
-            <Sidebar />
-            {/* Sidebar */}
-            {/* Feed (center)*/}
-            <Feed />
-            {/* Widgets */}
-            <Widgets />
-          </div>
-        {/* </>
+      {/* Header */}
+      <Header />
+      <div className="app__body">
+        <Sidebar />
+        {/* Sidebar */}
+        {/* Feed (center)*/}
+        <Feed />
+        {/* Widgets */}
+        <Widgets />
+      </div>
+      {/* </>
         )} */}
     </div>
   );
